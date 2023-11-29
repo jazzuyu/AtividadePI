@@ -1,7 +1,7 @@
 Algoritmo "Calculadora Salarial"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   :
-// DescriÁ„o   : A seguinte aplicaÁ„o tÍm o intuito de realizar o c·lculo do sal·rio lÌquido
+// Descri√ß√£o   : A seguinte aplica√ß√£o t√™m o intuito de realizar o c√°lculo do sal√°rio l√≠quido
 // Autor(a)    :
 // Data atual  : 20/10/2023
 Var
@@ -27,7 +27,7 @@ Inicio
    escreval("Digite seu nome: ")
    leia(nome)
    limpatela
-   escreval("Digite seu sal·rio: ")
+   escreval("Digite seu sal√°rio: ")
    leia(salarioBruto)
    INSS <- 0.075
    se salarioBruto <= 2571.29 entao
@@ -55,7 +55,7 @@ Inicio
    limpatela
    escreval()
    limpatela
-   escreval("Digite seu sal·rio: ")
+   escreval("Digite seu sal√°rio: ")
    leia(salarioBruto)
    INSS <- 0.075
    se salarioBruto <= 2571.29 entao
@@ -98,9 +98,9 @@ Inicio
    escreval()
    escreval("Seja bem-vindo(a), ",nome,"!")
    escreval("----------------------------------")
-   escreval("             OP«’ES:")
+   escreval("             OP√á√ïES:")
    escreval("[1] Verificar descontos. ")
-   escreval("[2] Trocar usu·rio. ")
+   escreval("[2] Trocar usu√°rio. ")
    escreval("[3] Sair. ")
    leia(opcao)
    escolha(opcao)
@@ -137,20 +137,20 @@ Inicio
    fimse
    escreval("          RESULTADOS:")
    escreval("----------------------------------")
-   escreval("Sal·rio Bruto: R$",salarioBruto)
+   escreval("Sal√°rio Bruto: R$",salarioBruto)
    escreval("Desconto INSS: R$",INSSDescontado)
-   escreval("Saiba mais: o desconto do Instituto Nacional do Seguro Social se refere ao pagamento da aposentadoria e demais benefÌcios aos trabalhadores brasileiros, com exceÁ„o de servidores p˙blicos. Fonte: eu")
+   escreval("Saiba mais: o desconto do Instituto Nacional do Seguro Social (INSS) se refere ao pagamento da aposentadoria e demais benef√≠cios aos trabalhadores brasileiros, com exce√ß√£o de servidores p√∫blicos. Fonte: eu")
    escreval()
    escreval("----------------------------------")
    escreval("Desconto FGTS: R$",FGTSDescontado)
-   escreval("Saiba mais: o desconto do .")
+   escreval("Saiba mais: o desconto do Fundo de Garantia do Tempo de Servi√ßo (FGTS) √© uma poupan√ßa aberta pela empresa em nome do trabalhador que funciona como uma garantia para proteg√™-lo em caso de demiss√£o sem justa causa.")
    escreval()
    escreval("----------------------------------")
    escreval("Desconto IRRF: R$",IRRFDescontado)
-   escreval("Saiba mais: o desconto dsfsdagafdsagfdga")
+   escreval("Saiba mais: o desconto do Imposto de Renda Retido na Fonte (IRRF) √© uma obriga√ß√£o tribut√°ria destinada √† Receita Federal que pode ser cobrada tanto de Pessoas F√≠sicas (PF) quanto de Pessoas Jur√≠dicas (PJ). Na pr√°tica, ele funciona como uma antecipa√ß√£o do Imposto de Renda, com o objetivo de simplificar a declara√ß√£o anual.")
    escreval()
-   escreval("Deseja repetir operaÁ„o? ")
-   escreval("[1]Sim  [2]N„o")
+   escreval("Deseja repetir opera√ß√£o? ")
+   escreval("[1]Sim  [2]N√£o")
    leia(verificador)
    se verificador = 1 entao
       iniciarRapido()
